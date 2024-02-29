@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": 1707444402104,
+      "email": "whatstoday2024@gmail.com",
+      "nickname": "whatstoday",
+      "password": "$2a$10$gNLNUw2Ud0/92QLcKcR6C.eZXwhYpn9tjMjzuExcHIfQ5n4QuKwai",
+      "isAdmin": true
+    }
+  ]
+}
