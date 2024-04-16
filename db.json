@@ -20,6 +20,13 @@
       "name": "張曉美",
       "phone": "0922333444",
       "id": 1707444402111
+    },
+    {
+      "email": "demo@email.com",
+      "password": "$2a$10$/sOsAv5/YPLlKRGVcyV6MO13r.JUJWUs7Tur37rN.KY4j8JabeT1O",
+      "name": "陳小安",
+      "phone": "0911224556",
+      "id": 1707444402112
     }
   ],
   "coupons": [
@@ -73,6 +80,11 @@
       "list": [],
       "id": 1710904882165,
       "userId": "1707444402111"
+    },
+    {
+      "list": [],
+      "id": 1713252559136,
+      "userId": "1707444402112"
     }
   ],
   "orders": [
@@ -1173,9 +1185,397 @@
         }
       },
       "id": 1710904882011,
-      "isFinish": false,
+      "isFinish": true,
       "createTime": 1710904882011,
       "userId": "1707444402111"
+    },
+    {
+      "contact": {
+        "delivery": "門市取貨",
+        "payment": "門市付款",
+        "name": "陳小安",
+        "phone": "0911224556",
+        "userId": "1707444402112",
+        "id": 1707444402830,
+        "message": "飲料不需要吸管，謝謝"
+      },
+      "cartInfo": {
+        "list": [
+          {
+            "product": {
+              "calories": "25",
+              "category": "果汁佐茶",
+              "custom": {
+                "extras": {
+                  "addPrice": 10,
+                  "isCustom": false,
+                  "name": "配料"
+                },
+                "ice": {
+                  "isCustom": true,
+                  "name": "冰熱",
+                  "options": [
+                    "去冰",
+                    "少冰",
+                    "正常冰"
+                  ]
+                },
+                "size": {
+                  "addPrice": 10,
+                  "isCustom": true,
+                  "name": "尺寸",
+                  "options": [
+                    "M",
+                    "L"
+                  ]
+                },
+                "sugar": {
+                  "isCustom": true,
+                  "name": "甜度",
+                  "options": [
+                    "無糖",
+                    "微糖",
+                    "半糖",
+                    "少糖",
+                    "全糖"
+                  ]
+                }
+              },
+              "description": "果香與茶香的完美結合，口感清爽，是夏日消暑的絕佳選擇。",
+              "id": "-NuHOWY5DPRldt4QePRy",
+              "imageUrl": "https://storage.googleapis.com/vue-course-api.appspot.com/juiceoasis/1712669757124.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=TOu6D%2FuiC36bv0RwSJKuTzP%2BGAjXO3neJp%2F5JsYGg5OWaVd%2F%2FYbG0EOwugrXvFftiUV2vQJLkPKAcW0U2yoxN1msCtpzoOFVQvijV%2B%2BBx1%2FPNjm9VRepk16fME%2FOIkT1%2FfHIy9bYd6pW2Jw2oSzkFBB16rUyn0FtenRCVmeQNjxx5OK%2B7ooEQOGI1hR2tmv1iGYoehheNk%2FBZXinOrxi5qKhokKCVM19tKCPsPLggDkmDSUo0GmH5qL3c2fdRDk%2BFA2UAON80PnrxrvfTbAFj%2BswFqF1CYIeABLqbpcjEYnQk7iRWrml45oPDb1%2BRkDpQoxWVk8C1GIyd3P6iSaoFg%3D%3D",
+              "ingredients": "蘋果、包種茶、少量糖（使用量依選擇的甜度而定）。",
+              "is_enabled": 1,
+              "num": 11,
+              "origin_price": 65,
+              "price": 65,
+              "sugarGramPer100ml": 6,
+              "title": "蘋果冰茶",
+              "type": "drink",
+              "unit": "杯"
+            },
+            "userCustom": {
+              "ice": "少冰",
+              "size": "L",
+              "sugar": "半糖",
+              "extras": []
+            },
+            "originPrice": 75,
+            "price": 75,
+            "qty": 1,
+            "cartId": 1713174365704
+          },
+          {
+            "product": {
+              "category": "整顆/分裝水果",
+              "custom": {
+                "extras": {
+                  "addPrice": 10,
+                  "isCustom": true,
+                  "name": "配料",
+                  "options": [
+                    "加珍珠",
+                    "加仙草",
+                    "加芋圓"
+                  ]
+                },
+                "ice": {
+                  "isCustom": true,
+                  "name": "冰熱",
+                  "options": [
+                    "熱飲",
+                    "溫飲",
+                    "去冰",
+                    "少冰",
+                    "正常冰"
+                  ]
+                },
+                "size": {
+                  "addPrice": 10,
+                  "isCustom": true,
+                  "name": "尺寸",
+                  "options": [
+                    "M",
+                    "L"
+                  ]
+                },
+                "sugar": {
+                  "isCustom": true,
+                  "name": "甜度",
+                  "options": [
+                    "無糖",
+                    "微糖",
+                    "半糖",
+                    "少糖",
+                    "全糖"
+                  ]
+                }
+              },
+              "description": "藍莓、覆盆莓、黑莓組合搭配，美味又營養。",
+              "id": "-NuHhE4b6JhODgZTRvPT",
+              "imageUrl": "https://storage.googleapis.com/vue-course-api.appspot.com/juiceoasis/1712669873846.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=X3cyKy8w7zeLmt4tb6bmgd2vvdMx4USdv9mAE6z1LLnguQiXIM%2BVn26xQFO1tq9P8ABKGbI8zXLQa9SvpArB3iojtF6i23Ofeo0nccrp%2BySkVenM6BGDQ5eMDF2uriXAs932JTT70zh5YUimrkwwPKoxeFDAco2B5ionpl8v5FN0cEFHHPforradmwlzGDJswzKzXlxnT8PjmNtpXswFwKt8CQraVyngXfgrhjrSamToapGMs3AYf8HtIAnHFJvz42mecLhpQwLkf8ImpWFAZVS7NfuNsm5fK4YTskvGrN6vMOSY%2FYzUCCpId24jjvt4MnBvJ%2FaySyo3YvZcPDxadw%3D%3D",
+              "is_enabled": 1,
+              "num": 4,
+              "origin_price": 100,
+              "price": 100,
+              "sugarGramPer100ml": 6,
+              "title": "綜合莓果",
+              "type": "fruit",
+              "unit": "盒 (120g)"
+            },
+            "userCustom": {},
+            "originPrice": 100,
+            "price": 100,
+            "qty": 2,
+            "cartId": 1713174375617
+          }
+        ],
+        "id": 1713174328617,
+        "userId": "1707444402112",
+        "price": 275,
+        "totalPrice": 262,
+        "cartItemNum": 3,
+        "coupon": {
+          "code": "anniversary",
+          "name": "週年慶",
+          "discount": 95,
+          "isEnabled": 1,
+          "dueDate": "2024-06-30T15:59:59.000Z",
+          "id": 1707444402047
+        }
+      },
+      "id": 1713174624396,
+      "isFinish": true,
+      "createTime": 1713174624396,
+      "userId": "1707444402112"
+    },
+    {
+      "contact": {
+        "delivery": "門市取貨",
+        "payment": "門市付款",
+        "name": "陳小安",
+        "phone": "0911224556",
+        "userId": "1707444402112",
+        "id": 1707444402830,
+        "message": "飲料不需要吸管，謝謝"
+      },
+      "cartInfo": {
+        "list": [
+          {
+            "product": {
+              "calories": "25",
+              "category": "果汁佐茶",
+              "custom": {
+                "extras": {
+                  "addPrice": 10,
+                  "isCustom": false,
+                  "name": "配料"
+                },
+                "ice": {
+                  "isCustom": true,
+                  "name": "冰熱",
+                  "options": [
+                    "去冰",
+                    "少冰",
+                    "正常冰"
+                  ]
+                },
+                "size": {
+                  "addPrice": 10,
+                  "isCustom": true,
+                  "name": "尺寸",
+                  "options": [
+                    "M",
+                    "L"
+                  ]
+                },
+                "sugar": {
+                  "isCustom": true,
+                  "name": "甜度",
+                  "options": [
+                    "無糖",
+                    "微糖",
+                    "半糖",
+                    "少糖",
+                    "全糖"
+                  ]
+                }
+              },
+              "description": "果香與茶香的完美結合，口感清爽，是夏日消暑的絕佳選擇。",
+              "id": "-NuHOWY5DPRldt4QePRy",
+              "imageUrl": "https://storage.googleapis.com/vue-course-api.appspot.com/juiceoasis/1712669757124.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=TOu6D%2FuiC36bv0RwSJKuTzP%2BGAjXO3neJp%2F5JsYGg5OWaVd%2F%2FYbG0EOwugrXvFftiUV2vQJLkPKAcW0U2yoxN1msCtpzoOFVQvijV%2B%2BBx1%2FPNjm9VRepk16fME%2FOIkT1%2FfHIy9bYd6pW2Jw2oSzkFBB16rUyn0FtenRCVmeQNjxx5OK%2B7ooEQOGI1hR2tmv1iGYoehheNk%2FBZXinOrxi5qKhokKCVM19tKCPsPLggDkmDSUo0GmH5qL3c2fdRDk%2BFA2UAON80PnrxrvfTbAFj%2BswFqF1CYIeABLqbpcjEYnQk7iRWrml45oPDb1%2BRkDpQoxWVk8C1GIyd3P6iSaoFg%3D%3D",
+              "ingredients": "蘋果、包種茶、少量糖（使用量依選擇的甜度而定）。",
+              "is_enabled": 1,
+              "num": 11,
+              "origin_price": 65,
+              "price": 65,
+              "sugarGramPer100ml": 6,
+              "title": "蘋果冰茶",
+              "type": "drink",
+              "unit": "杯"
+            },
+            "userCustom": {
+              "ice": "少冰",
+              "size": "L",
+              "sugar": "半糖",
+              "extras": []
+            },
+            "originPrice": 75,
+            "price": 75,
+            "qty": 2,
+            "cartId": 1713252411143
+          },
+          {
+            "product": {
+              "_vts": 1710769562959,
+              "category": "切片水果",
+              "custom": {
+                "extras": {
+                  "addPrice": 10,
+                  "isCustom": true,
+                  "name": "配料",
+                  "options": [
+                    "加珍珠",
+                    "加仙草",
+                    "加芋圓"
+                  ]
+                },
+                "ice": {
+                  "isCustom": true,
+                  "name": "冰熱",
+                  "options": [
+                    "熱飲",
+                    "溫飲",
+                    "去冰",
+                    "少冰",
+                    "正常冰"
+                  ]
+                },
+                "size": {
+                  "addPrice": 10,
+                  "isCustom": true,
+                  "name": "尺寸",
+                  "options": [
+                    "M",
+                    "L"
+                  ]
+                },
+                "sugar": {
+                  "isCustom": true,
+                  "name": "甜度",
+                  "options": [
+                    "無糖",
+                    "微糖",
+                    "半糖",
+                    "少糖",
+                    "全糖"
+                  ]
+                }
+              },
+              "description": "嚴選新鮮奇異果切片，健康滿分。",
+              "id": "-NtGojsNWNEnBqtmVrAg",
+              "imageUrl": "https://storage.googleapis.com/vue-course-api.appspot.com/juiceoasis/1712669541927.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=hoW%2FAynJxptoZ7AD53GAXzt4QPRhmZC5Q9xG3htU7pmSdvlaba3Y96%2FtzSyPnuC23GSQIEoydig6G%2BnhUXU0tPyzn1gJYTz7LB3NeVj1CAv64j%2FZmqj0GFjRdb6JM9i888TODnylkRAOA2VnEGoEUbBFDVgBD6NehxYeZQV7pILUSWS3r%2BPYNENOEtWXZSeLUmcdrUGLo%2B6LnlSkko02oO1mVUEcrbKUoAKv1CJjKV4dpdMa%2BzNxWryivkpETbBlqwEfQe1x%2BEjNxFQ55%2B%2BajuuEy%2B1o5WqZI01PJvUvAiR3LdAQjhe%2FbPCBsN%2BNIdhPQKNdKOCxxGEAcAhAG5Fpaw%3D%3D",
+              "isTrusted": true,
+              "is_enabled": 1,
+              "num": 25,
+              "origin_price": 60,
+              "price": 60,
+              "sugarGramPer100ml": 6,
+              "title": "奇異果",
+              "type": "fruit",
+              "unit": "袋 (300g)"
+            },
+            "userCustom": {},
+            "originPrice": 60,
+            "price": 60,
+            "qty": 1,
+            "cartId": 1713252420374
+          },
+          {
+            "product": {
+              "_vts": 1710770693258,
+              "category": "整顆/分裝水果",
+              "custom": {
+                "extras": {
+                  "addPrice": 10,
+                  "isCustom": true,
+                  "name": "配料",
+                  "options": [
+                    "加珍珠",
+                    "加仙草",
+                    "加芋圓"
+                  ]
+                },
+                "ice": {
+                  "isCustom": true,
+                  "name": "冰熱",
+                  "options": [
+                    "熱飲",
+                    "溫飲",
+                    "去冰",
+                    "少冰",
+                    "正常冰"
+                  ]
+                },
+                "size": {
+                  "addPrice": 10,
+                  "isCustom": true,
+                  "name": "尺寸",
+                  "options": [
+                    "M",
+                    "L"
+                  ]
+                },
+                "sugar": {
+                  "isCustom": true,
+                  "name": "甜度",
+                  "options": [
+                    "無糖",
+                    "微糖",
+                    "半糖",
+                    "少糖",
+                    "全糖"
+                  ]
+                }
+              },
+              "description": "嚴選新鮮藍莓，圓潤飽滿，口感酸甜。",
+              "id": "-NtGtF9PfNb4gfbv2U0-",
+              "imageUrl": "https://storage.googleapis.com/vue-course-api.appspot.com/juiceoasis/1712669657469.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=WIov96jvNJNRmg8FN7YGYmZpSy5lZtHeSN0u5IXamdY7qDxp8sddKIMPIsUqSUO%2Fjd7ANhZuaTJZaRN1TEryPxUy8nfZHSUyJshOCwBhvkPu1ZBK23IkD6hA8mSiUyERU4AaHNgB3NtzH9%2BbtiBj%2FsFrBjYNzsPu%2Firv0C7UfgZFgVRAaweocKpf2Tc4fXaFJbYRh0r9XjrS7G0YkV6RexETk0kiT%2F03lXuN3mUtutnmlT%2FClZzv3znfPYCwJmTEfgY6S9tO5q1A4i6jI1Dos7tl6edenLThniKeOV9qrwv%2FTPKTJuimVVQ2MGOwZrxhFvoEQTGSqc1CB9N4VL4SGw%3D%3D",
+              "isTrusted": true,
+              "is_enabled": 1,
+              "num": 17,
+              "origin_price": 100,
+              "price": 100,
+              "sugarGramPer100ml": 6,
+              "title": "藍莓",
+              "type": "fruit",
+              "unit": "盒 (100g)"
+            },
+            "userCustom": {},
+            "originPrice": 100,
+            "price": 100,
+            "qty": 1,
+            "cartId": 1713252425702
+          }
+        ],
+        "id": 1713174624605,
+        "userId": "1707444402112",
+        "price": 310,
+        "totalPrice": 295,
+        "cartItemNum": 4,
+        "coupon": {
+          "code": "anniversary",
+          "name": "週年慶",
+          "discount": 95,
+          "isEnabled": 1,
+          "dueDate": "2024-06-30T15:59:59.000Z",
+          "id": 1707444402047
+        }
+      },
+      "id": 1713252558987,
+      "isFinish": true,
+      "createTime": 1713252558987,
+      "userId": "1707444402112"
     }
   ],
   "feedbacks": [
@@ -1206,7 +1606,7 @@
     {
       "userName": "許先生",
       "star": 5,
-      "comment": "這裡的果汁好喝到讓我每天都忍不住來點一杯！",
+      "comment": "絕佳的服務，美味的飲品，永遠都是我的第一選擇！",
       "id": 5
     },
     {
@@ -1238,66 +1638,6 @@
       "star": 5,
       "comment": "店家的水果非常新鮮，份量也很足，非常推薦！",
       "id": 10
-    },
-    {
-      "userName": "許先生",
-      "star": 5,
-      "comment": "絕佳的服務，美味的飲品，永遠都是我的第一選擇！",
-      "id": 11
-    },
-    {
-      "userName": "王小姐",
-      "star": 5,
-      "comment": "果汁品質一流，每次都讓我感到滿意！",
-      "id": 12
-    },
-    {
-      "userName": "張先生",
-      "star": 5,
-      "comment": "飲品口感濃郁，讓人非常享受！",
-      "id": 13
-    },
-    {
-      "userName": "陳小姐",
-      "star": 5,
-      "comment": "店家的服務人員態度親切，讓我感到賓至如歸！",
-      "id": 14
-    },
-    {
-      "userName": "李先生",
-      "star": 5,
-      "comment": "每次喝完店家的果汁都覺得精神煥發，非常開心！",
-      "id": 15
-    },
-    {
-      "userName": "劉小姐",
-      "star": 5,
-      "comment": "店家的飲品選擇多樣化，每次來都有新的驚喜！",
-      "id": 16
-    },
-    {
-      "userName": "黃先生",
-      "star": 5,
-      "comment": "無論什麼時間來店裡都能品嚐到新鮮美味的飲品，太方便了！",
-      "id": 17
-    },
-    {
-      "userName": "林小姐",
-      "star": 5,
-      "comment": "店家的飲品不僅美味，而且看起來也很精緻，讓人心情愉悅！",
-      "id": 18
-    },
-    {
-      "userName": "吳先生",
-      "star": 5,
-      "comment": "我每次來這裡都會點不同口味的飲品，都很滿意！",
-      "id": 19
-    },
-    {
-      "userName": "蔡小姐",
-      "star": 5,
-      "comment": "水果非常新鮮、份量也多，讓我吃得很滿足！",
-      "id": 20
     }
   ],
   "orderDataSettings": [
@@ -1310,6 +1650,15 @@
       "payment": "線上刷卡",
       "message": "飲料不需要吸管",
       "address": ""
+    },
+    {
+      "name": "陳小安",
+      "phone": "0911224556",
+      "userId": "1707444402112",
+      "id": 1707444402830,
+      "delivery": "門市取貨",
+      "payment": "門市付款",
+      "message": "飲料不需要吸管，謝謝"
     }
   ],
   "collection": [
@@ -1510,6 +1859,202 @@
       ],
       "id": 1712134992269,
       "userId": "1707444402110"
+    },
+    {
+      "list": [
+        {
+          "product": {
+            "_vts": 1710749596877,
+            "calories": "45",
+            "category": "純果汁",
+            "custom": {
+              "extras": {
+                "addPrice": 10,
+                "isCustom": false,
+                "name": "配料"
+              },
+              "ice": {
+                "isCustom": true,
+                "name": "冰熱",
+                "options": [
+                  "去冰",
+                  "少冰",
+                  "正常冰"
+                ]
+              },
+              "size": {
+                "addPrice": 10,
+                "isCustom": false,
+                "name": "尺寸",
+                "options": [
+                  "M"
+                ]
+              },
+              "sugar": {
+                "isCustom": true,
+                "name": "甜度",
+                "options": [
+                  "無糖",
+                  "微糖",
+                  "半糖",
+                  "少糖",
+                  "全糖"
+                ]
+              }
+            },
+            "description": "富含維生素C與纖維的奇異果汁，讓您享受健康與美味。",
+            "id": "-NtFcDbjOz0xI-N7WzyD",
+            "imageUrl": "https://storage.googleapis.com/vue-course-api.appspot.com/juiceoasis/1712669253461.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=i4TxnH7MlCE9JMfv77DVg8cWhfj5EKAVSd4VJ1DpYwokEkpj747KWqec4JHS9wwDUQlmq7b01CoMG%2B62eQQbyaLVFN6YjWmtVQ29Wc%2FaArahzA3H2a9HP0c7iAgnSqb3cEyeIo6k6vGvFhJ%2FXGTJ%2FNZGKebz%2FwqfTK8UDylRAKX5uYf3b%2FjaHZsrR45WDBZulaA30bcpD60OlA%2FdmUaAhH6Hv%2FQPFQUJAUInhmwVfwJu5BSAdI4yYRvTA7GAMFZ4tsQh6wUUYxq3ssc0qCFcXFjJwbqwk5aj%2BnYBd5SK8zCnVriRcdLGUZbDhbSljKxTcUKA06AbSX2i1l21RXkRlg%3D%3D",
+            "ingredients": "奇異果、水、少量糖（使用量依選擇的甜度而定）。",
+            "isTrusted": true,
+            "is_enabled": 1,
+            "num": 43,
+            "origin_price": 60,
+            "price": 60,
+            "sugarGramPer100ml": 6,
+            "title": "奇異果汁",
+            "type": "drink",
+            "unit": "杯"
+          },
+          "userCustom": {
+            "ice": "正常冰",
+            "size": "M",
+            "sugar": "全糖",
+            "extras": []
+          },
+          "originPrice": 60,
+          "price": 60,
+          "collectionId": 1713174344963
+        },
+        {
+          "product": {
+            "calories": "25",
+            "category": "果汁佐茶",
+            "custom": {
+              "extras": {
+                "addPrice": 10,
+                "isCustom": false,
+                "name": "配料"
+              },
+              "ice": {
+                "isCustom": true,
+                "name": "冰熱",
+                "options": [
+                  "去冰",
+                  "少冰",
+                  "正常冰"
+                ]
+              },
+              "size": {
+                "addPrice": 10,
+                "isCustom": true,
+                "name": "尺寸",
+                "options": [
+                  "M",
+                  "L"
+                ]
+              },
+              "sugar": {
+                "isCustom": true,
+                "name": "甜度",
+                "options": [
+                  "無糖",
+                  "微糖",
+                  "半糖",
+                  "少糖",
+                  "全糖"
+                ]
+              }
+            },
+            "description": "果香與茶香的完美結合，口感清爽，是夏日消暑的絕佳選擇。",
+            "id": "-NuHOWY5DPRldt4QePRy",
+            "imageUrl": "https://storage.googleapis.com/vue-course-api.appspot.com/juiceoasis/1712669757124.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=TOu6D%2FuiC36bv0RwSJKuTzP%2BGAjXO3neJp%2F5JsYGg5OWaVd%2F%2FYbG0EOwugrXvFftiUV2vQJLkPKAcW0U2yoxN1msCtpzoOFVQvijV%2B%2BBx1%2FPNjm9VRepk16fME%2FOIkT1%2FfHIy9bYd6pW2Jw2oSzkFBB16rUyn0FtenRCVmeQNjxx5OK%2B7ooEQOGI1hR2tmv1iGYoehheNk%2FBZXinOrxi5qKhokKCVM19tKCPsPLggDkmDSUo0GmH5qL3c2fdRDk%2BFA2UAON80PnrxrvfTbAFj%2BswFqF1CYIeABLqbpcjEYnQk7iRWrml45oPDb1%2BRkDpQoxWVk8C1GIyd3P6iSaoFg%3D%3D",
+            "ingredients": "蘋果、包種茶、少量糖（使用量依選擇的甜度而定）。",
+            "is_enabled": 1,
+            "num": 11,
+            "origin_price": 65,
+            "price": 65,
+            "sugarGramPer100ml": 6,
+            "title": "蘋果冰茶",
+            "type": "drink",
+            "unit": "杯"
+          },
+          "userCustom": {
+            "ice": "少冰",
+            "size": "L",
+            "sugar": "半糖",
+            "extras": []
+          },
+          "originPrice": 75,
+          "price": 75,
+          "collectionId": 1713174364619
+        },
+        {
+          "product": {
+            "category": "整顆/分裝水果",
+            "custom": {
+              "extras": {
+                "addPrice": 10,
+                "isCustom": true,
+                "name": "配料",
+                "options": [
+                  "加珍珠",
+                  "加仙草",
+                  "加芋圓"
+                ]
+              },
+              "ice": {
+                "isCustom": true,
+                "name": "冰熱",
+                "options": [
+                  "熱飲",
+                  "溫飲",
+                  "去冰",
+                  "少冰",
+                  "正常冰"
+                ]
+              },
+              "size": {
+                "addPrice": 10,
+                "isCustom": true,
+                "name": "尺寸",
+                "options": [
+                  "M",
+                  "L"
+                ]
+              },
+              "sugar": {
+                "isCustom": true,
+                "name": "甜度",
+                "options": [
+                  "無糖",
+                  "微糖",
+                  "半糖",
+                  "少糖",
+                  "全糖"
+                ]
+              }
+            },
+            "description": "藍莓、覆盆莓、黑莓組合搭配，美味又營養。",
+            "id": "-NuHhE4b6JhODgZTRvPT",
+            "imageUrl": "https://storage.googleapis.com/vue-course-api.appspot.com/juiceoasis/1712669873846.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=X3cyKy8w7zeLmt4tb6bmgd2vvdMx4USdv9mAE6z1LLnguQiXIM%2BVn26xQFO1tq9P8ABKGbI8zXLQa9SvpArB3iojtF6i23Ofeo0nccrp%2BySkVenM6BGDQ5eMDF2uriXAs932JTT70zh5YUimrkwwPKoxeFDAco2B5ionpl8v5FN0cEFHHPforradmwlzGDJswzKzXlxnT8PjmNtpXswFwKt8CQraVyngXfgrhjrSamToapGMs3AYf8HtIAnHFJvz42mecLhpQwLkf8ImpWFAZVS7NfuNsm5fK4YTskvGrN6vMOSY%2FYzUCCpId24jjvt4MnBvJ%2FaySyo3YvZcPDxadw%3D%3D",
+            "is_enabled": 1,
+            "num": 4,
+            "origin_price": 100,
+            "price": 100,
+            "sugarGramPer100ml": 6,
+            "title": "綜合莓果",
+            "type": "fruit",
+            "unit": "盒 (120g)"
+          },
+          "userCustom": {},
+          "originPrice": 100,
+          "price": 100,
+          "collectionId": 1713174374807
+        }
+      ],
+      "id": 1713174328604,
+      "userId": "1707444402112"
     }
   ]
 }
